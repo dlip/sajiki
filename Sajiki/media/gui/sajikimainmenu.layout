@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="MainMenu" >
+        <Property Name="InheritsAlpha" Value="False" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="TaharezLook/Button" Name="MainMenu/btnPlay" >
+            <Property Name="Text" Value="Play" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.401156,0},{0.05,0},{0.646822,0},{0.15,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="MainMenu/btnOptions" >
+            <Property Name="Text" Value="Options" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.40896,0},{0.16,0},{0.641618,0},{0.27,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="MainMenu/btnEditor" >
+            <Property Name="Text" Value="Level Editor" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.408092,0},{0.28,0},{0.646531,0},{0.39,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="MainMenu/btnHelp" >
+            <Property Name="Text" Value="Help" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.411272,0},{0.4,0},{0.646821,0},{0.51,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="MainMenu/btnCredits" >
+            <Property Name="Text" Value="Credits" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.411561,0},{0.52,0},{0.645665,0},{0.63,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="MainMenu/btnQuit" >
+            <Property Name="Text" >Quit
+</Property>
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.416185,0},{0.64,0},{0.644508,0},{0.75,0}}" />
+        </Window>
+
+    </Window>
+</GUILayout>

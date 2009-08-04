@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Play" >
+        <Property Name="InheritsAlpha" Value="False" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="TaharezLook/Listbox" Name="Play/lstLevels" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0442199,0},{0.305826,0},{0.422832,0},{0.814078,0}}" />
+        </Window>
+		<Window Type="TaharezLook/StaticText" Name="Play/txtSelectedLevel" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.436934,0},{0.209917,0},{0.619431,0},{0.294869,0}}" />
+        </Window>
+        <Window Type="TaharezLook/StaticText" Name="Play/txtLevel1" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.641329,0},{0.304854,0},{0.941908,0},{0.380097,0}}" />
+        </Window>
+        <Window Type="TaharezLook/StaticText" Name="Play/txtLevel2" >
+            <Property Name="Font" Value="Commonwealth-10" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.645086,0},{0.391747,0},{0.945665,0},{0.46699,0}}" />
+        </Window>
+		<Window Type="TaharezLook/StaticText" Name="Play/txtLevel3" >
+            <Property Name="Font" Value="Commonwealth-10" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.641617,0},{0.476699,0},{0.942197,0},{0.551942,0}}" />
+        </Window>
+        <Window Type="TaharezLook/StaticText" Name="Play/txtLevel4" >
+            <Property Name="Font" Value="Commonwealth-10" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.641617,0},{0.564078,0},{0.942197,0},{0.639321,0}}" />
+        </Window>
+        <Window Type="TaharezLook/StaticText" Name="Play/txtLevel5" >
+            <Property Name="Font" Value="Commonwealth-10" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.644797,0},{0.65631,0},{0.945377,0},{0.731553,0}}" />
+        </Window>
+        <Window Type="TaharezLook/StaticText" Name="Play/txtLevel6" >
+            <Property Name="Font" Value="Commonwealth-10" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.644219,0},{0.743204,0},{0.944799,0},{0.818447,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="Play/btn1" >
+            <Property Name="Text" Value="&gt;" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.465896,0},{0.302912,0},{0.591619,0},{0.374272,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="Play/btn2" >
+            <Property Name="Font" Value="Commonwealth-10" />
+            <Property Name="Text" Value="&gt;" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.468208,0},{0.38398,0},{0.593932,0},{0.45534,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="Play/btn3" >
+            <Property Name="Font" Value="Commonwealth-10" />
+            <Property Name="Text" Value="&gt;" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.46763,0},{0.480582,0},{0.593354,0},{0.551942,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="Play/btn4" >
+            <Property Name="Font" Value="Commonwealth-10" />
+            <Property Name="Text" Value="&gt;" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.468497,0},{0.567475,0},{0.594221,0},{0.638835,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="Play/btn5" >
+            <Property Name="Font" Value="Commonwealth-10" />
+            <Property Name="Text" Value="&gt;" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.469364,0},{0.660193,0},{0.595088,0},{0.731553,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="Play/btn6" >
+            <Property Name="Font" Value="Commonwealth-10" />
+            <Property Name="Text" Value="&gt;" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.468786,0},{0.747087,0},{0.59451,0},{0.818447,0}}" />
+        </Window>
+        <Window Type="TaharezLook/StaticText" Name="Play/txtPlay" >
+            <Property Name="Text" Value="Play" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.421677,0},{0.0174752,0},{0.557515,0},{0.0966021,0}}" />
+        </Window>
+        <Window Type="TaharezLook/StaticText" Name="Play/txtLevelSelect" >
+            <Property Name="Text" Value="Level Selection" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.044798,0},{0.228156,0},{0.421965,0},{0.301457,0}}" />
+        </Window>
+        <Window Type="TaharezLook/StaticText" Name="Play/txtLevelQueue" >
+            <Property Name="Text" Value="Level Queue" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.640751,0},{0.227184,0},{0.942775,0},{0.298544,0}}" />
+        </Window>
+        <Window Type="TaharezLook/StaticText" Name="Play/txtInfo" >
+            <Property Name="Text" Value="Please select a level on the left and use the buttons in the middle to add it to the queue of levels to be played." />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.05289,0},{0.115534,0},{0.918497,0},{0.202427,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="Play/btnCancel" >
+            <Property Name="Text" Value="Cancel" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.168786,0},{0.871845,0},{0.334971,0},{0.974272,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="Play/btnOk" >
+            <Property Name="Text" Value="Ok" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.702312,0},{0.872815,0},{0.881503,0},{0.973301,0}}" />
+        </Window>
+		<Window Type="TaharezLook/StaticText" Name="Play/txtErrorLevelQueue" >
+            <Property Name="Text" >ERROR
+The level queue must have 6 levels to start.</Property>
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0.327001,0},{0.359864,0},{0.753471,0},{0.555442,0}}" />
+            <Window Type="TaharezLook/Button" Name="Play/btnErrorOk" >
+                <Property Name="Text" Value="Ok" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.371113,0},{0.576522,0},{0.621114,0},{0.826522,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

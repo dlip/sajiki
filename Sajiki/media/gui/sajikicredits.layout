@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Credits" >
+        <Property Name="InheritsAlpha" Value="False" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="TaharezLook/StaticText" Name="Credits/txtCredits" >
+            <Property Name="Text" >&gt;Lead Design and Level Art&lt;
+Naomi Ross
+(naomi-ross@hotmail.com)
+
+&gt;Lead Programmer&lt;
+Dane Lipscombe
+(danelipscombe@gmail.com)
+
+&gt;Art and Animation&lt;
+Russell Coker
+(blacknight-63@hotmail.com)
+Tony Guest
+(emulsifier72@hotmail.com)
+Georgios Taraganis 
+(gtaraganis@gmail.com)
+
+&gt;Music&lt;
+Simon Beard
+(ted_e_bare_69r@hotmail.com)
+Pat Winters
+
+&gt;Special Thanks&lt;
+Thanks to our teachers Lea Bartlett 
+and Sebastian Perri from AIE Canberra.
+We wouldn't be as l33t without you ;)
+</Property>
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.031214,0},{0.0767172,0},{0.392484,0},{0.85495,0}}" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+        </Window>
+    </Window>
+</GUILayout>

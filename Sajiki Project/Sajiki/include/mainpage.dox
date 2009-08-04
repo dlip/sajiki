@@ -1,0 +1,7 @@
+/**
+	@mainpage
+	@par
+		This frantic last man standing platformer style game is great fun for casual gamers of all ages. It was made in 15 weeks from concept to finish by students of AIE Canberra campus. The aim of the game is to be the only man standing. To do this you must capture the Time Dilation Device [TDD] before anyone else does and hold it long enough to outlast the other players. Dont fall in the traps and find the rotations switches to rotate the entire level any direction to send other people to their doom!! Players start with 120 seconds health at the end of this time they will die. The TDD pauses your personal countdown timer.
+	@par
+		Programming by Dane Lipscombe. Website: http://www.danesgames.com Email: danelipscombe@gmail.com
+ */

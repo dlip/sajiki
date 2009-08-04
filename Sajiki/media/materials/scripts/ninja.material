@@ -1,0 +1,44 @@
+material Examples/Ninja
+{
+	technique
+	{
+		pass
+		{
+		
+			texture_unit
+			{
+				texture nskingr.jpg
+			}
+		}
+	}
+}
+material Box011_material
+{
+	technique
+	{
+		pass
+		{
+		
+			texture_unit
+			{
+				texture nskingr.jpg
+			}
+		}
+	}
+}
+
+material Examples/Background
+{
+	technique
+	{
+		pass
+		{
+		
+			texture_unit
+			{
+				texture background.dds
+			}
+		}
+	}
+}
+

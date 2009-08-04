@@ -1,0 +1,596 @@
+material Assets/Tile1
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+			texture_unit
+			{
+				texture tile1.dds
+			}
+		}
+	}
+}
+
+material Assets/Tile2
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture tile2.dds
+			}
+		}
+	}
+}
+
+material Assets/Tile3
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture tile3.dds
+			}
+		}
+	}
+}
+
+material Assets/Tile4
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture tile4.dds
+			}
+		}
+	}
+}
+
+material Assets/Tile5
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture tile5.dds
+			}
+		}
+	}
+}
+
+material Assets/Tile6
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture tile6.dds
+			}
+		}
+	}
+}
+
+material Assets/BrokenTile1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture brokentile1.dds
+			}
+		}
+	}
+}
+
+material Assets/BrokenTile2
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture brokentile2.dds
+			}
+		}
+	}
+}
+
+material Assets/BrokenTile3
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture brokentile3.dds
+			}
+		}
+	}
+}
+
+material Assets/BrokenTile4
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture brokentile4.dds
+			}
+		}
+	}
+}
+
+material Assets/BrokenTile5
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture brokentile5.dds
+			}
+		}
+	}
+}
+
+material Assets/BrokenTile6
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture brokentile6.dds
+			}
+		}
+	}
+}
+
+material Assets/TDD
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture tdd1.dds
+			}
+		}
+	}
+}
+
+material Assets/Time
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture time1.dds
+			}
+		}
+	}
+}
+
+material Assets/Spikes
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture spikes1.dds
+			}
+		}
+	}
+}
+
+material Assets/JumpPad
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture jumppad1.dds
+			}
+		}
+	}
+}
+
+material Assets/SpikeBall1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture spikeball1.dds
+			}
+			texture_unit
+			{
+				texture spheremap.png
+				colour_op_ex add src_texture src_current
+				colour_op_multipass_fallback one one
+				env_map spherical
+			}
+		}
+	}
+}
+
+material Assets/SpikeBall2
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture spikeball2.dds
+			}
+			texture_unit
+			{
+				texture spheremap.png
+				colour_op_ex add src_texture src_current
+				colour_op_multipass_fallback one one
+				env_map spherical
+			}
+		}
+	}
+}
+
+material Assets/SpikeBall3
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture spikeball3.dds
+			}
+			texture_unit
+			{
+				texture spheremap.png
+				colour_op_ex add src_texture src_current
+				colour_op_multipass_fallback one one
+				env_map spherical
+			}
+		}
+		
+	}
+}
+
+material Assets/SpikeBall4
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture spikeball4.dds
+			}
+			texture_unit
+			{
+				texture spheremap.png
+				colour_op_ex add src_texture src_current
+				colour_op_multipass_fallback one one
+				env_map spherical
+			}
+		}
+	}
+}
+
+material Assets/SpikeBall5
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture spikeball5.dds
+			}
+			texture_unit
+			{
+				texture spheremap.png
+				colour_op_ex add src_texture src_current
+				colour_op_multipass_fallback one one
+				env_map spherical
+			}
+		}
+	}
+}
+
+material Assets/SpikeBall6
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture spikeball6.dds
+			}
+			texture_unit
+			{
+				texture spheremap.png
+				colour_op_ex add src_texture src_current
+				colour_op_multipass_fallback one one
+				env_map spherical
+			}
+		}
+	}
+}
+
+material Assets/SlowMo
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture slowmo1.dds
+			}
+		}
+	}
+}
+
+material Assets/RotationSwitch
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture rotationswitch1.dds
+			}
+		}
+	}
+}
+
+material Assets/RotationSwitchActive
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture rotationswitchactive.dds
+			}
+		}
+	}
+}
+
+material Assets/RotationSwitchNotActive
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture rotationswtichnotactive.dds
+			}
+		}
+	}
+}
+
+material Assets/PlayerSpawn1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerspawn1.dds
+			}
+		}
+	}
+}
+
+material Assets/PlayerSpawn2
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerspawn2.dds
+			}
+		}
+	}
+}
+
+material Assets/PlayerSpawn3
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerspawn3.dds
+			}
+		}
+	}
+}
+
+material Assets/PlayerSpawn4
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerspawn4.dds
+			}
+		}
+	}
+}
+
+material Assets/PointLight1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture pointlight1.dds
+			}
+		}
+	}
+}
+
+material Assets/PointLight2
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture pointlight2.dds
+			}
+		}
+	}
+}
+
+material Assets/PointLight3
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture pointlight3.dds
+			}
+		}
+	}
+}
+
+material Assets/PointLight4
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture pointlight4.dds
+			}
+		}
+	}
+}
+
+material Assets/PointLight5
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture pointlight5.dds
+			}
+		}
+	}
+}
+
+material Assets/HP0
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture hp_0.dds
+			}
+		}
+	}
+}
+
+material Assets/HP1
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture hp_1.dds
+				rotate_anim 1
+			}
+		}
+	}
+}
+
+material Assets/HP2
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture hp_2.dds
+				rotate_anim 1
+			}
+		}
+	}
+}
+
+material Assets/HP3
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture hp_3.dds
+				rotate_anim 1
+			}
+		}
+	}
+}

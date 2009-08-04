@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Options" >
+        <Property Name="InheritsAlpha" Value="False" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+         <Window Type="TaharezLook/StaticText" Name="Options/txtOptions" >
+            <Property Name="Text" ></Property>
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.045214,0},{0.407172,0},{0.392484,0},{0.65495,0}}" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="FrameEnabled" Value="False" />
+        </Window>
+    </Window>
+</GUILayout>

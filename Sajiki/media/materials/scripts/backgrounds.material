@@ -1,0 +1,133 @@
+material Backgrounds/Background1
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture backgrounds/background1.dds
+			}
+		}
+	}
+}
+
+material Backgrounds/Background1Goo
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{                                          
+				texture backgrounds/background1_Goo.dds
+				rotate_anim 0.2
+			}
+			texture_unit
+			{
+				texture backgrounds/background1_Goo.dds
+				colour_op_ex add src_texture src_current
+				colour_op_multipass_fallback one one
+				scroll_anim -0.1 0.25
+				wave_xform scale_x sine 1 1 0 5
+				wave_xform scale_y sine 0.5 0.2 0.5 3
+			}
+		}
+	}
+}
+
+material Backgrounds/Background2
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture backgrounds/background2.dds
+			}
+		}
+	}
+}
+
+material Backgrounds/Background3
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture backgrounds/background3.dds
+			}
+		}
+	}
+}
+material Backgrounds/Background3Pipes
+{
+	technique
+	{
+		pass
+		{
+			specular 0.0 0.0 0.0 1.0 12.5
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture backgrounds/background3_pipes.dds
+				wave_xform scale_x sine 0.5 0.2 0.5 3
+				wave_xform scale_y sine 1 0.1 0 5
+				scroll_anim 0.2 0
+			}
+		}
+	}
+}
+
+material Backgrounds/Background4
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				
+				texture backgrounds/background4.dds
+			}
+		}
+	}
+}
+
+material Backgrounds/Background5
+{
+	technique
+	{
+		pass
+		{   
+		    scene_blend alpha_blend
+			texture_unit
+			{
+				texture backgrounds/background5.dds
+			}
+		}
+	}
+}
+
+material Backgrounds/Background6
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture backgrounds/background6.dds
+			}
+		}
+	}
+}
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Help" >
+        <Property Name="InheritsAlpha" Value="False" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="TaharezLook/StaticText" Name="txtHelp" >
+            <Property Name="Text" >HELP
+
+</Property>
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0268787,0},{0.0557246,0},{0.388149,0},{0.198854,0}}" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+        </Window>
+        <Window Type="TaharezLook/StaticText" Name="Help/txtHelpInfo" >
+            <Property Name="Text" >How to Play:
+This frantic last man standing platformer style game is great fun for casual gamers of all ages.
+ The aim of the game is to be the only man standing. To do this you must capture the Time 
+ Dilation Device [TDD] before anyone else does and hold it long enough to outlast the other 
+ players. Don't fall in the traps and find the rotations switches to rotate the entire level 
+ any direction to send other people to their doom!! Players start with 120 seconds health at 
+ the end of this time they will die. The TDD pauses your personal countdown timer.
+ 
+ Controls (Movement/Attack):
+ Player 1: UP DOWN LEFT RIGHT/Right Control
+ Player 2: WASD/Left Control
+ Player 3: IJKL/Space
+ Player 4: NUMPAD 8456/Enter	
+ 
+</Property>
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0635841,0},{0.244275,0},{0.955202,0},{0.830152,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

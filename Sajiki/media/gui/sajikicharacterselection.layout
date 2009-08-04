@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Charsel" >
+        <Property Name="InheritsAlpha" Value="False" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="TaharezLook/StaticText" Name="Charsel/txtTitle" >
+            <Property Name="Text" >Press a button to enter the game.
+Change model with left/right. Change skin with up/down.</Property>
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0.26432,0},{0.903443,0},{0.753473,0},{1,0}}" />
+        </Window>
+        <Window Type="TaharezLook/StaticText" Name="Charsel/txtPlayerReady1" >
+            <Property Name="Text" Value="READY!" />
+            <Property Name="Alpha" Value="0.6" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.35892,0},{0.331634,0},{0.487416,0},{0.392519,0}}" />
+        </Window>
+        <Window Type="TaharezLook/StaticText" Name="Charsel/txtPlayerReady2" >
+            <Property Name="Font" Value="Commonwealth-10" />
+            <Property Name="Text" Value="READY!" />
+            <Property Name="Alpha" Value="0.7" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.70892,0},{0.331634,0},{0.837416,0},{0.392519,0}}" />
+        </Window>
+        <Window Type="TaharezLook/StaticText" Name="Charsel/txtPlayerReady3" >
+            <Property Name="Font" Value="Commonwealth-10" />
+            <Property Name="Text" Value="READY!" />
+            <Property Name="Alpha" Value="0.7" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.35892,0},{0.728573,0},{0.487416,0},{0.789458,0}}" />
+        </Window>
+        <Window Type="TaharezLook/StaticText" Name="Charsel/txtPlayerReady4" >
+            <Property Name="Font" Value="Commonwealth-10" />
+            <Property Name="Text" Value="READY!" />
+            <Property Name="Alpha" Value="0.7" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.70892,0},{0.728573,0},{0.837416,0},{0.789458,0}}" />
+        </Window>
+		<Window Type="TaharezLook/StaticText" Name="Charsel/frmReady" >
+            <Property Name="Text" Value=" " />
+            <Property Name="Alpha" Value="0.6" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="TaharezLook/StaticText" Name="Charsel/txtReady" >
+                <Property Name="Text" >
+</Property>
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.377735,0},{0.336123,0},{0.6747,0},{0.618748,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,939 @@
+material Grid
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture grid.png
+			}
+		}
+	}
+	technique
+    {
+        pass
+        {
+			alpha_rejection greater 150 
+			scene_blend alpha_blend
+		    cull_hardware none
+            cull_software none
+            texture_unit
+            {
+                texture grid.png
+            }
+        }
+    }
+}
+
+material PE/Flare
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			depth_write off
+
+			texture_unit
+			{
+				texture flaretrail.png
+			}
+		}
+	}
+}
+
+
+material PE/point_lensflare
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			scene_blend add
+
+			point_sprites on
+			point_size 0.1
+			point_size_attenuation on
+
+			texture_unit
+			{
+				texture flare.png
+			}
+		}
+	}
+}
+
+material PE/point_lensflare2
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			scene_blend add
+
+			point_sprites on
+			point_size 0.1
+			point_size_attenuation on
+
+			texture_unit
+			{
+				texture flare2.png
+			}
+		}
+	}
+}
+
+material Player/PlayerM0
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerm0.dds
+			}
+		}
+	}
+}
+
+material Player/PlayerM0White
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerm0.dds
+			}
+			texture_unit
+			{
+				texture playerwhite.png
+				colour_op_ex add src_texture src_current
+				colour_op_multipass_fallback one one
+			}
+		}
+	}
+}
+
+material Player/PlayerM1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerm1.dds
+			}
+		}
+	}
+}
+
+material Player/PlayerM1White
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerm1.dds
+			}
+			texture_unit
+			{
+				texture playerwhite.png
+				colour_op_ex add src_texture src_current
+				colour_op_multipass_fallback one one
+			}
+		}
+	}
+}
+
+material Player/PlayerM2
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerm2.dds
+			}
+		}
+	}
+}
+
+material Player/PlayerM2White
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerm2.dds
+			}
+			texture_unit
+			{
+				texture playerwhite.png
+				colour_op_ex add src_texture src_current
+				colour_op_multipass_fallback one one
+			}
+		}
+	}
+}
+
+material Player/PlayerM3
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerm3.dds
+			}
+		}
+	}
+}
+
+material Player/PlayerM3White
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerm3.dds
+			}
+			texture_unit
+			{
+				texture playerwhite.png
+				colour_op_ex add src_texture src_current
+				colour_op_multipass_fallback one one
+			}
+		}
+	}
+}
+
+material Player/PlayerM4
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerm4.dds
+			}
+		}
+	}
+}
+
+material Player/PlayerM4White
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerm4.dds
+			}
+			texture_unit
+			{
+				texture playerwhite.png
+				colour_op_ex add src_texture src_current
+				colour_op_multipass_fallback one one
+			}
+		}
+	}
+}
+
+material Player/PlayerM5
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerm5.dds
+			}
+		}
+	}
+}
+
+material Player/PlayerM5White
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerm5.dds
+			}
+			texture_unit
+			{
+				texture playerwhite.png
+				colour_op_ex add src_texture src_current
+				colour_op_multipass_fallback one one
+			}
+		}
+	}
+}
+
+material Player/PlayerM6
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerm6.dds
+			}
+		}
+	}
+}
+
+material Player/PlayerM6White
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerm6.dds
+			}
+			texture_unit
+			{
+				texture playerwhite.png
+				colour_op_ex add src_texture src_current
+				colour_op_multipass_fallback one one
+			}
+		}
+	}
+}
+
+material Player/PlayerM7
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerm7.dds
+			}
+		}
+	}
+}
+
+material Player/PlayerM7White
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerm7.dds
+			}
+			texture_unit
+			{
+				texture playerwhite.png
+				colour_op_ex add src_texture src_current
+				colour_op_multipass_fallback one one
+			}
+		}
+	}
+}
+
+material Player/PlayerM8
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerm8.dds
+			}
+		}
+	}
+}
+
+material Player/PlayerM8White
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerm8.dds
+			}
+			texture_unit
+			{
+				texture playerwhite.png
+				colour_op_ex add src_texture src_current
+				colour_op_multipass_fallback one one
+			}
+		}
+	}
+}
+
+material Player/PlayerM9
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerm9.dds
+			}
+		}
+	}
+}
+
+material Player/PlayerM9White
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerm9.dds
+			}
+			texture_unit
+			{
+				texture playerwhite.png
+				colour_op_ex add src_texture src_current
+				colour_op_multipass_fallback one one
+			}
+		}
+	}
+}
+
+
+material Player/PlayerF0
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerf0.dds
+			}
+		}
+	}
+}
+
+material Player/PlayerF0White
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerf0.dds
+			}
+			texture_unit
+			{
+				texture playerwhite.png
+				colour_op_ex add src_texture src_current
+				colour_op_multipass_fallback one one
+			}
+		}
+	}
+}
+
+material Player/PlayerF1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerf1.dds
+			}
+		}
+	}
+}
+
+material Player/PlayerF1White
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerf1.dds
+			}
+			texture_unit
+			{
+				texture playerwhite.png
+				colour_op_ex add src_texture src_current
+				colour_op_multipass_fallback one one
+			}
+		}
+	}
+}
+
+material Player/PlayerF2
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerf2.dds
+			}
+		}
+	}
+}
+
+material Player/PlayerF2White
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerf2.dds
+			}
+			texture_unit
+			{
+				texture playerwhite.png
+				colour_op_ex add src_texture src_current
+				colour_op_multipass_fallback one one
+			}
+		}
+	}
+}
+
+material Player/PlayerF3
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerf3.dds
+			}
+		}
+	}
+}
+
+material Player/PlayerF3White
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerf3.dds
+			}
+			texture_unit
+			{
+				texture playerwhite.png
+				colour_op_ex add src_texture src_current
+				colour_op_multipass_fallback one one
+			}
+		}
+	}
+}
+
+material Player/PlayerF4
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerf4.dds
+			}
+		}
+	}
+}
+
+material Player/PlayerF4White
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerf4.dds
+			}
+			texture_unit
+			{
+				texture playerwhite.png
+				colour_op_ex add src_texture src_current
+				colour_op_multipass_fallback one one
+			}
+		}
+	}
+}
+
+material Player/PlayerF5
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerf5.dds
+			}
+		}
+	}
+}
+
+material Player/PlayerF5White
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerf5.dds
+			}
+			texture_unit
+			{
+				texture playerwhite.png
+				colour_op_ex add src_texture src_current
+				colour_op_multipass_fallback one one
+			}
+		}
+	}
+}
+
+material Player/PlayerF6
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerf6.dds
+			}
+		}
+	}
+}
+
+material Player/PlayerF6White
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerf6.dds
+			}
+			texture_unit
+			{
+				texture playerwhite.png
+				colour_op_ex add src_texture src_current
+				colour_op_multipass_fallback one one
+			}
+		}
+	}
+}
+
+material Player/PlayerF7
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerf7.dds
+			}
+		}
+	}
+}
+
+material Player/PlayerF7White
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerf7.dds
+			}
+			texture_unit
+			{
+				texture playerwhite.png
+				colour_op_ex add src_texture src_current
+				colour_op_multipass_fallback one one
+			}
+		}
+	}
+}
+
+material Player/PlayerF8
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerf8.dds
+			}
+		}
+	}
+}
+
+material Player/PlayerF8White
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerf8.dds
+			}
+			texture_unit
+			{
+				texture playerwhite.png
+				colour_op_ex add src_texture src_current
+				colour_op_multipass_fallback one one
+			}
+		}
+	}
+}
+
+material Player/PlayerF9
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerf9.dds
+			}
+		}
+	}
+}
+
+material Player/PlayerF9White
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture playerf9.dds
+			}
+			texture_unit
+			{
+				texture playerwhite.png
+				colour_op_ex add src_texture src_current
+				colour_op_multipass_fallback one one
+			}
+		}
+	}
+}
+
+material SajikiLogo
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture sajikilogo.jpg
+			}
+		}
+	}
+}
+
+material MainMenu
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture Menu_tex.dds
+			}
+		}
+	}
+}
+
+material SajikiCode
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{                                          
+				texture sajikicode.dds
+				scroll_anim 0 0.33
+			}
+			texture_unit
+			{
+				texture sajikicode2.dds
+				scroll_anim 0 0.15
+				
+			}
+		}
+	}
+}
+
+material Menu/Arrow
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture spikeball1.dds
+			}
+			texture_unit
+			{
+				texture spheremap.png
+				colour_op_ex add src_texture src_current
+				colour_op_multipass_fallback one one
+				env_map spherical
+			}
+		}
+	}
+}
+
+material Menu/Help1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture help1.jpg
+			}
+		}
+	}
+}
+
+material Menu/Help2
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture help2.jpg
+			}
+		}
+	}
+}
+
+material Menu/Help3
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture help3.jpg
+			}
+		}
+	}
+}
+
+material Menu/Help4
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture help4.jpg
+			}
+		}
+	}
+}
+
+material Menu/Help5
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture help5.jpg
+			}
+		}
+	}
+}
+
+material Menu/Help6
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture help6.jpg
+			}
+		}
+	}
+}
+
+material Menu/Help7
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture help7.jpg
+			}
+		}
+	}
+}
